@@ -1,0 +1,47 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    margin-top: 10rem;
+    max-width: 20rem;
+    padding:1rem 1rem 1rem 1rem;
+    box-shadow: 3px 3px 30px white;
+    border-radius: 50px 10px 50px 10px;
+}
+
+body{
+    background-color: rgb(19, 35, 41);
+}
+
+.fondo-inicio{
+    background-color: black;
+    color: white;
+}
+
+.bienvenida{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 30px;
+    text-shadow: 3px 3px 10px yellow;
+    color: white;
+}
+
+
+
+.btn-enviar{
+    border-radius: 10px;
+    color: white;
+    background-color: blueviolet;
+    transition: .3s ease-in-out;
+}
+
+.btn-enviar:hover{
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(43, 226, 116);
+    transition: .3s ease-in-out;
+    
+}
+
